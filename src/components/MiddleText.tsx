@@ -1,5 +1,6 @@
 import rightIcon from "../assets/right-arrow-svgrepo-com.svg";
 import openBook from "../assets/open-book-svgrepo-com.svg";
+import { TechIcon } from "./TechIcon";
 export const MiddleText = () => {
   return (
     <div className="pt-20 flex flex-col items-center justify-center">
@@ -22,6 +23,8 @@ export const MiddleText = () => {
           <img src={rightIcon} className="h-5 w-5 invert brightness-0" alt="" />
         </span>
       </div>
+
+      <TechIcon />
     </div>
   );
 };
